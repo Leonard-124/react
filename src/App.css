@@ -1,0 +1,170 @@
+
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f8;
+  color: #2b2a2a;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-step {
+  font-size: 1rem;
+  color: #333333;
+  margin: 20px;
+  font-weight: bold;
+  
+  
+}
+
+/* Main content */
+.main {
+  padding: 2rem;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: rgb(219, 212, 212);
+  border: 2px solid transparent;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.card.selected {
+  border-color: #f01212;
+}
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.card-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #eb1515;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.card-button:hover {
+  background-color: #7a82ac;
+}
+
+/* Footer styles */
+.footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #c5c1c1;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  color: #4b4a4a;
+  margin-bottom: 1rem;
+}
+
+.footer-details {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-price {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-buttons button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-buttons .back {
+  background-color: #ccc;
+  color: #333;
+}
+
+.footer-buttons .continue {
+  background-color: #ff3300;
+  color: white;
+}
+
+.footer-buttons .continue:hover {
+  background-color: #69d1bb;
+}
+
+.footer-buttons .back:hover {
+  background-color: #65916b;
+}/* Reset and base styles */
+
+
+
+ 
+
