@@ -19,7 +19,7 @@ The react App is a responsive React web application designed to allow users to s
 ## File Structure
 
 ```
-combined-selector-app/
+react-app/
 ├── public/
 │   └── images/
 │       ├── skip4.jpg
